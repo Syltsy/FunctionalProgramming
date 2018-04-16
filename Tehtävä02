@@ -1,0 +1,11 @@
+2. Kahden luvun suurin yhteinen tekijä on suurin luku, jolla molemmat luvut ovat jaollisia.  Esimerkiksi lukujen 102 ja  68 suurin tekijä on 34.
+
+syt(p, q) {
+  Jos q on 0, palauta p.
+  Muuten 
+    selvitä rekursiivisella metodikutsulla, mikä on suurin yhteinen tekijä q:lle ja p%q:lle,
+	ja
+    palauta sama luku, jonka rekursiivinen kutsukin palautti.
+}
+
+function yhtTekija(){}
